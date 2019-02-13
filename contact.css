@@ -48,7 +48,7 @@ h1 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 22px;
   word-spacing: 5px;
   color: var(--pink);
 	text-align: center;
@@ -74,6 +74,11 @@ div {
   border-radius: 5%;
 }
 
+.fa:hover {
+	background: white;
+	color: var(--dark-purple);
+}
+
 .fa-twitter {
   background: var(--dark-purple);
   color: white;
@@ -85,6 +90,11 @@ div {
 }
 
 .fa-instagram {
+  background: var(--dark-purple);
+  color: white;
+}
+
+.fa-github {
   background: var(--dark-purple);
   color: white;
 }
