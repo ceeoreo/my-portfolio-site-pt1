@@ -7,6 +7,7 @@
 body {
   font-family: 'Niramit', san-serif;
 }
+
 header {
   width: 100%;
   display: block;
@@ -53,7 +54,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 50%;
+  border-radius: 2%;
 }
 
 p {
