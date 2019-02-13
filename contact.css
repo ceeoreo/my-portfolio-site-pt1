@@ -24,7 +24,7 @@ li {
  }
 li a {
   text-decoration: none;
-  color: var(--dark-purple)
+  color: var(--dark-purple);
 }
 
 li a:hover {
@@ -48,20 +48,53 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 24px;
   word-spacing: 5px;
   color: var(--pink);
+	text-align: center;
+	margin-bottom: 25px;
 }
 
-p a {
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 100px;
+  width: 50%;
+	padding: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
   text-decoration: none;
-  color: var(--pink);
+  margin: 5px 2px;
+  border-radius: 5%;
 }
 
-p a:hover {
-  text-decoration: underline;
+.fa-twitter {
+  background: var(--dark-purple);
+  color: white;
 }
-footer{
+
+.fa-linkedin {
+  background: var(--dark-purple);
+  color: white;
+}
+
+.fa-instagram {
+  background: var(--dark-purple);
+  color: white;
+}
+
+footer {
+  display: block;
+  margin-top: 80px;
+  padding: 20px 0 40px 0;
   width: 100%;
-  background-color: -var(--minty);
+  height: 100px;
+  background-color: var(--minty);
+
 }
