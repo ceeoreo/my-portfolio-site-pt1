@@ -63,6 +63,16 @@ p {
   padding-bottom: 20px;
 }
 
+p a {
+	color: var(--pink);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 footer {
   display: block;
   margin-top: 80px;
