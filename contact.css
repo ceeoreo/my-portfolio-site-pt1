@@ -35,6 +35,11 @@ li a:hover {
   float: left;
 }
 
+#title-pic {
+	width: 50px;
+	height: 50px;
+}
+
 main {
   display: block;
   max-width: 700px;

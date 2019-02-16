@@ -25,7 +25,7 @@ li {
  }
 li a {
   text-decoration: none;
-  color: var(--dark-purple)
+  color: var(--dark-purple);
 }
 
 li a:hover {
@@ -36,10 +36,16 @@ li a:hover {
   float: left;
 }
 
+#title-pic {
+	width: 50px;
+	height: 50px;
+}
+
 main {
   display: block;
   max-width: 700px;
   margin: 0 auto;
+	padding-bottom: 15%;
 }
 
 h1 {
@@ -49,11 +55,13 @@ h1 {
   text-align: center;
 }
 
-img {
+#ceora-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+	margin-bottom: 35px;
+  width: 200px;
+	height: 200px;
   border-radius: 2%;
 }
 
