@@ -57,7 +57,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   word-spacing: 5px;
   color: var(--pink);
 	text-align: center;
@@ -73,7 +73,8 @@ p a:hover {
 }
 
 footer {
-  display: block;
+  display: flex;
+	justify-content: center;
   margin-top: 80px;
   padding-top: 20px;
   width: 100%;
