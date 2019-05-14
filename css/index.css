@@ -1,85 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Rubik');
+
 :root {
-  --dark-purple: #4957A7;
-  --pink: #ECA59A;
-  --minty: #a1d3d2;
+  --dark-blue: #78AAC3;
+  --light-blue: #C4DEEE;
+  --medium-blue: #97C8D6;
+  --orange: #EEAB73;
+  --yellow: #F3CD86;
+  --peach: #F5A281;
 }
 
-body {
-  font-family: 'Niramit', san-serif;
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+
 }
 
-header {
-  width: 100%;
-  display: block;
-  padding: 25px 0 50px 0;
-  color: var(--dark-purple);
-  font-weight:
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
 }
 
-li {
-  list-style-type: none;
-  float: right;
-  margin-right: 50px;
-  font-size: 20px;
-  letter-spacing:2px;
- }
-
-li a {
-  text-decoration: none;
-  color: var(--dark-purple);
-}
-
-li a:hover {
- text-decoration: underline;
-}
-
-#title {
-  float: left;
-}
-
-#title-pic {
-	width: 50px;
-	height: 50px;
-}
-
-main {
-  display: block;
-  max-width: 700px;
-  margin: 0 auto;
-	padding-bottom: 15%;
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
 }
 
 h1 {
-  color: var(--minty);
-  margin-top: 100px;
-  font-size: 75px;
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Rubik;
+  letter-spacing: 3px;
+}
+
+.dark-blue-text {
+  color: var(--dark-blue);
+}
+
+.light-blue-text {
+  color: var(--light-blue);
+}
+
+.medium-blue-text {
+  color: var(--medium-blue);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.yellow-text {
+  color: var(--yellow);
+}
+
+.peach-text {
+  color: var(--peach);
 }
 
 p {
-  font-size: 22px;
-  word-spacing: 5px;
-  color: var(--pink);
+  font-family: Quicksand;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-p a {
-  text-decoration: none;
-  color: var(--pink);
-}
-
-p a:hover {
-  text-decoration: underline;
-}
-
-footer {
+.icons {
+  text-align: center;
   display: flex;
-	justify-content: center;
-  margin-top: 80px;
-  padding-top: 20px;
-  width: 100%;
-  height: 100px;
-  background-color: var(--minty);
+  justify-content: center;
 }
 
-#copyrightsym {
-	color: var(--dark-purple);
+.fab {
+  color: white;
+  background: var(--peach);
+  height: 20px;
+  width: 20px;
+  padding: 15px;
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 2px solid var(--peach);
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.fab:hover, .fab:active {
+  color: var(--peach);
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+
 }
